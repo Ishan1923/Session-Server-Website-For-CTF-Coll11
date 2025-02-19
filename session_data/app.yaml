@@ -12,7 +12,7 @@ entrypoint: gunicorn -b :$PORT session_data.wsgi
 env_variables:
   DJANGO_SETTINGS_MODULE: "session_data.settings"
   SECRET_KEY: "django-insecure-n5*r-i#r+j9bd=rkk1g0a93bjwsa%!l!$ymgnx40o^9r2g+cg="
-  ALLOWED_HOSTS: ".appspot.com"
+  ALLOWED_HOSTS: "*"
 
 # automatic_scaling:
 #   target_cpu_utilization: 0.65
