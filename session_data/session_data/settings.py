@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-n5*r-i#r+j9bd=rkk1g0a93bjwsa%!l!$ymgnx40o^9r2g+cg='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.appspot.com', '127.0.0.1']
 CORS_ALLOW_ALL_ORIGINS = True
 
 
